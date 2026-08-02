@@ -60,11 +60,6 @@ body.products-page {
 .logo {
   height: 70px;
 }
-.search-icon {
-  height: 30px;
-  cursor: pointer;
-}
-
 /* Group 2 Navigation Container & Image */
 .nav-group-container {
   position: relative;
@@ -978,8 +973,7 @@ body.products-page {
     margin-top: 86px;
   }
 
-  .nav-group-container,
-  .search-icon {
+  .nav-group-container {
     display: none;
   }
 
