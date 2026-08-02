@@ -1,0 +1,5 @@
+name = "let-it-rip-nutrition"
+compatibility_date = "2024-09-23"
+
+[assets]
+directory = "."
