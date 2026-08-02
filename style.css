@@ -65,6 +65,7 @@ body.products-page {
   position: relative;
   display: inline-flex;
   align-items: center;
+  margin: 0 auto;
 }
 
 .nav-links-img {
