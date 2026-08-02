@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Us & Them - Let It Rip Nutrition</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html">
+        <img src="Layer_1.svg" alt="Let It Rip Logo" class="logo" />
+      </a>
+      <!-- Group 2 Asset with 4 Clickable Overlay Links -->
+      <div class="nav-group-container">
+        <img src="Group 2.svg" alt="Navigation Links" class="nav-links-img" />
+
+        <a href="story.html" class="nav-zone zone-1" title="Our Story"></a>
+        <a
+          href="us-and-them.html"
+          class="nav-zone zone-2"
+          title="Us and Them"
+        ></a>
+        <a
+          href="who-we-serve.html"
+          class="nav-zone zone-3"
+          title="Who We Serve"
+        ></a>
+        <a href="contact.html" class="nav-zone zone-4" title="Contact Us"></a>
+      </div>
+
+      <img src="Magnifying Glass.svg" alt="Search" class="search-icon" />
+
+      <!-- Mobile Hamburger Menu -->
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="mobile-nav-panel" id="mobileNavPanel">
+        <a href="story.html">Our Story</a>
+        <a href="us-and-them.html">Us &amp; Them</a>
+        <a href="who-we-serve.html">Who We Serve</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </nav>
+
+    <script>
+      document.getElementById("hamburgerBtn").addEventListener("click", () => {
+        document.getElementById("mobileNavPanel").classList.toggle("open");
+      });
+    </script>
+
+    <div class="page-title-bar">
+      <img src="Us and Them.svg" alt="Us and Them" />
+    </div>
+
+    <main class="compare-showcase">
+      <div class="compare-viewport">
+        <div class="compare-track" id="compareTrack">
+          <!-- Pair 1: Quest Protein Chips vs Doritos -->
+          <div class="compare-pair">
+            <div class="compare-card us-card">
+              <div class="compare-img-wrap">
+                <img src="Quest Nacho Cheese 1.png" alt="Quest Protein Chips" />
+              </div>
+              <p class="compare-label">Us</p>
+              <h3>Quest Protein Chips</h3>
+              <ul>
+                <li>19 grams of protein</li>
+                <li>5 grams of carbs</li>
+                <li>A great post-workout snack!</li>
+              </ul>
+            </div>
+            <div class="compare-card them-card">
+              <div class="compare-img-wrap">
+                <img src="Nacho Cheese Doritos 1.png" alt="Doritos" />
+              </div>
+              <p class="compare-label">Them</p>
+              <h3>Doritos</h3>
+              <ul>
+                <li>Fried corn chips</li>
+                <li>Only 2 grams of protein</li>
+                <li>Highly processed ingredients</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Pair 2: Gourmet Protein Vanilla Caramel Peanut Bar vs Payday -->
+          <div class="compare-pair">
+            <div class="compare-card us-card">
+              <div class="compare-img-wrap">
+                <img
+                  src="Gourmet Protien Vanilla Caramel Peanut Bar 11.png"
+                  alt="Gourmet Protein Vanilla Caramel Peanut Bar"
+                />
+              </div>
+              <p class="compare-label">Us</p>
+              <h3>Gourmet Protein Vanilla Caramel Peanut Bar</h3>
+              <ul>
+                <li>10 grams of protein</li>
+                <li>5 grams of carbs</li>
+                <li>Keeps you fuller longer</li>
+              </ul>
+            </div>
+            <div class="compare-card them-card">
+              <div class="compare-img-wrap">
+                <img src="Payday Bar 1.png" alt="Payday Bar" />
+              </div>
+              <p class="compare-label">Them</p>
+              <h3>Payday Bar</h3>
+              <ul>
+                <li>13 grams of fat</li>
+                <li>6 grams of protein</li>
+                <li>Dessert disguised as a snack</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Pair 4: Sweet Addisons Cookies vs Famous Amos Cookies -->
+          <div class="compare-pair">
+            <div class="compare-card us-card">
+              <div class="compare-img-wrap">
+                <img
+                  src="Sweet Addisons Cookies 1.png"
+                  alt="Sweet Addisons Cookies"
+                />
+              </div>
+              <p class="compare-label">Us</p>
+              <h3>Sweet Addisons Cookies</h3>
+              <ul>
+                <li>Gluten & Grain Free</li>
+                <li>No refined sugar</li>
+                <li>17 grams of protein</li>
+              </ul>
+            </div>
+            <div class="compare-card them-card">
+              <div class="compare-img-wrap">
+                <img src="Famous Amos 1.png" alt="Famous Amos Cookies" />
+              </div>
+              <p class="compare-label">Them</p>
+              <h3>Famous Amos Cookies</h3>
+              <ul>
+                <li>Refined flour</li>
+                <li>Added sugars</li>
+                <li>2 grams of protein</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Pair 5: Ghost Energy Drinks vs Red Bull Energy Drinks -->
+          <div class="compare-pair">
+            <div class="compare-card us-card">
+              <div class="compare-img-wrap">
+                <img
+                  src="Ghost Cherry Limeade 2.png"
+                  alt="Ghost Energy Drinks"
+                />
+              </div>
+              <p class="compare-label">Us</p>
+              <h3>Ghost Energy Drinks</h3>
+              <ul>
+                <li>200mg of caffeine</li>
+                <li>Zero Sugar</li>
+                <li>Includes Alpha-GPC + nootropics</li>
+              </ul>
+            </div>
+            <div class="compare-card them-card">
+              <div class="compare-img-wrap">
+                <img src="Red Bull 1.png" alt="Red Bull Energy Drinks" />
+              </div>
+              <p class="compare-label">Them</p>
+              <h3>Red Bull Energy Drinks</h3>
+              <ul>
+                <li>144mg of caffeine</li>
+                <li>38 grams of sugar</li>
+                <li>160 calories</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Pair 6: Protein Pastries vs Pop-Tarts -->
+          <div class="compare-pair">
+            <div class="compare-card us-card">
+              <div class="compare-img-wrap">
+                <img src="Protien Pastry 1.png" alt="Protein Pastries" />
+              </div>
+              <p class="compare-label">Us</p>
+              <h3>Protein Pastries</h3>
+              <ul>
+                <li>Excellent Macros</li>
+                <li>Incredibly Filling</li>
+                <li>20 grams of protein</li>
+              </ul>
+            </div>
+            <div class="compare-card them-card">
+              <div class="compare-img-wrap">
+                <img src="Pop-Tarts 1.png" alt="Pop-Tarts" />
+              </div>
+              <p class="compare-label">Them</p>
+              <h3>Pop-Tarts</h3>
+              <ul>
+                <li>30 grams of carbs</li>
+                <li>15 grams of added sugar</li>
+                <li>2 grams of protein</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Pair 7: LesserEvil Popcorn vs Popcorn -->
+          <div class="compare-pair">
+            <div class="compare-card us-card">
+              <div class="compare-img-wrap">
+                <img src="Lesser Evil Popcorn 1.png" alt="LesserEvil Popcorn" />
+              </div>
+              <p class="compare-label">Us</p>
+              <h3>LesserEvil Popcorn</h3>
+              <ul>
+                <li>Cooked in Coconut Oil</li>
+                <li>Good source of whole grains</li>
+                <li>Fewer, simpler, healthier ingredients</li>
+              </ul>
+            </div>
+            <div class="compare-card them-card">
+              <div class="compare-img-wrap">
+                <img src="Generic Popcorn 1.png" alt="Popcorn" />
+              </div>
+              <p class="compare-label">Them</p>
+              <h3>Popcorn</h3>
+              <ul>
+                <li>Processed Oils</li>
+                <li>Artificial Butter Flavor</li>
+                <li>Low fiber</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Pair 8: Muffinful vs Little Bites -->
+          <div class="compare-pair">
+            <div class="compare-card us-card">
+              <div class="compare-img-wrap">
+                <img src="Muffinful 1.png" alt="Muffinful" />
+              </div>
+              <p class="compare-label">Us</p>
+              <h3>Muffinful</h3>
+              <ul>
+                <li>Non-GMO ingredients</li>
+                <li>Unbleached Flour</li>
+                <li>No artificial colors or flavors</li>
+              </ul>
+            </div>
+            <div class="compare-card them-card">
+              <div class="compare-img-wrap">
+                <img src="Little Bites 1.png" alt="Little Bites" />
+              </div>
+              <p class="compare-label">Them</p>
+              <h3>Little Bites</h3>
+              <ul>
+                <li>Refined flour</li>
+                <li>Added sugars</li>
+                <li>Minimal protein</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Pair 9: Perfect Bar vs Regular Protein Bar -->
+          <div class="compare-pair">
+            <div class="compare-card us-card">
+              <div class="compare-img-wrap">
+                <img src="Perfect Bar 1.png" alt="Perfect Bar" />
+              </div>
+              <p class="compare-label">Us</p>
+              <h3>Perfect Bar</h3>
+              <ul>
+                <li>Real, whole-food ingredients</li>
+                <li>Made with peanut butter, honey & eggs</li>
+                <li>Rich, creamy taste people love</li>
+              </ul>
+            </div>
+            <div class="compare-card them-card">
+              <div class="compare-img-wrap">
+                <img src="Gatorade Protien Bar 1.png" alt="Regular Protein Bar" />
+              </div>
+              <p class="compare-label">Them</p>
+              <h3>Regular Protein Bar</h3>
+              <ul>
+                <li>More processed ingredients</li>
+                <li>Higher in added sugars</li>
+                <li>Artificial flavors & sweeteners</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="compare-nav">
+        <button class="compare-arrow" id="prevBtn" aria-label="Previous pair">
+          &#9664;
+        </button>
+        <span class="swipe-hint">Swipe to see more products</span>
+        <button class="compare-arrow" id="nextBtn" aria-label="Next pair">
+          &#9654;
+        </button>
+      </div>
+
+      <section class="vending-compare">
+        <div class="vending-compare-card">
+          <div class="vending-compare-images">
+            <div class="vending-compare-col">
+              <img src="vending-machine.png" alt="Let it Rip Vending Machine" />
+            </div>
+            <div class="vending-compare-col">
+              <img
+                src="Old Vending Machine 3_4 1.png"
+                alt="Other Vendors Vending Machine"
+              />
+            </div>
+          </div>
+
+          <div class="vending-compare-row vending-compare-labels">
+            <p class="compare-label">Us</p>
+            <p class="compare-label">Them</p>
+          </div>
+
+          <div class="vending-compare-row vending-compare-headers">
+            <h3>Let it Rip</h3>
+            <h3>Other Vendors</h3>
+          </div>
+
+          <div class="vending-compare-row">
+            <span>Grab multiple items in one purchase</span>
+            <span>One item at a time</span>
+          </div>
+          <div class="vending-compare-row">
+            <span>Cashless & contactless payment</span>
+            <span>Cash, coins, or outdated payment systems</span>
+          </div>
+          <div class="vending-compare-row">
+            <span>Bright, modern retail presentation</span>
+            <span>Basic vending display</span>
+          </div>
+          <div class="vending-compare-row">
+            <span>Fresh, rotating product selection</span>
+            <span>Same products month after month</span>
+          </div>
+          <div class="vending-compare-row">
+            <span>Customized for your members & location</span>
+            <span>Same products in every machine</span>
+          </div>
+          <div class="vending-compare-row">
+            <span>AI-powered product recognition</span>
+            <span>Coil-based dispensing that can jam or miss products</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mobile-only version: two clean stacked cards instead of the desktop table -->
+      <section class="vending-compare-mobile">
+        <div class="vending-mobile-card us-card">
+          <img
+            src="vending-machine.png"
+            alt="Let it Rip Vending Machine"
+            class="vending-mobile-img"
+          />
+          <p class="compare-label">Us</p>
+          <h3>Let it Rip</h3>
+          <ul>
+            <li>Grab multiple items in one purchase</li>
+            <li>Cashless &amp; contactless payment</li>
+            <li>Bright, modern retail presentation</li>
+            <li>Fresh, rotating product selection</li>
+            <li>Customized for your members &amp; location</li>
+            <li>AI-powered product recognition</li>
+          </ul>
+        </div>
+        <div class="vending-mobile-card them-card">
+          <img
+            src="Old Vending Machine 3_4 1.png"
+            alt="Other Vendors Vending Machine"
+          />
+          <p class="compare-label">Them</p>
+          <h3>Other Vendors</h3>
+          <ul>
+            <li>One item at a time</li>
+            <li>Cash, coins, or outdated payment systems</li>
+            <li>Basic vending display</li>
+            <li>Same products month after month</li>
+            <li>Same products in every machine</li>
+            <li>Coil-based dispensing that can jam or miss products</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <div class="products-section-wrap">
+      <div class="page-title-bar">
+        <img src="Our Top Offerings.svg" alt="Our Top Offerings" />
+      </div>
+
+      <section class="products-showcase" style="height: 750px; position: relative">
+        <!-- Additional Offerings List (Larger Text) -->
+        <div
+          class="additional-offerings"
+          style="
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            color: #ffffff;
+          "
+        >
+          <p style="margin: 8px 0">Perfect Bars</p>
+          <p style="margin: 8px 0">Gourmet Snack Nut Roll Bars</p>
+          <p style="margin: 8px 0">Quest Chips</p>
+          <p style="margin: 8px 0">Fitzels</p>
+          <p style="margin: 8px 0">Sweet Addisons</p>
+          <p style="margin: 8px 0">Boulder/Siete chips</p>
+          <p style="margin: 8px 0">Lesser Evil Snacks</p>
+          <p style="margin: 8px 0">Protein Bakery</p>
+          <p style="margin: 8px 0">Rotten Snacks</p>
+          <p style="margin: 8px 0">Fairlife Protein Shakes</p>
+          <p style="margin: 8px 0">My cookie dealer protein Pop-Tarts</p>
+          <p style="margin: 8px 0">Unreal Chocolate Cups</p>
+          <p style="margin: 8px 0">Annie's Protein Mac and Cheese</p>
+          <p style="margin: 8px 0">
+            Once Upon a Coconut Chocolate Coconut Water
+          </p>
+          <p style="margin: 8px 0; padding-bottom: 60px">&amp; Many More!</p>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      const track = document.getElementById("compareTrack");
+      const pairCount = track.children.length;
+      let activeIndex = 0;
+
+      function updateTrack() {
+        track.style.transform = `translateX(-${activeIndex * 100}%)`;
+      }
+
+      document.getElementById("prevBtn").addEventListener("click", () => {
+        activeIndex = (activeIndex - 1 + pairCount) % pairCount;
+        updateTrack();
+      });
+
+      document.getElementById("nextBtn").addEventListener("click", () => {
+        activeIndex = (activeIndex + 1) % pairCount;
+        updateTrack();
+      });
+    </script>
+  </body>
+</html>

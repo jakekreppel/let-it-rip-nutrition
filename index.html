@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let It Rip Nutrition</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- Logo linked to Home -->
+      <a href="index.html">
+        <img src="Layer_1.svg" alt="Let It Rip Logo" class="logo" />
+      </a>
+
+      <!-- Group 2 Asset with 4 Clickable Overlay Links -->
+      <div class="nav-group-container">
+        <img src="Group 2.svg" alt="Navigation Links" class="nav-links-img" />
+
+        <a href="story.html" class="nav-zone zone-1" title="Our Story"></a>
+        <a
+          href="us-and-them.html"
+          class="nav-zone zone-2"
+          title="Us and Them"
+        ></a>
+        <a
+          href="who-we-serve.html"
+          class="nav-zone zone-3"
+          title="Who We Serve"
+        ></a>
+        <a href="contact.html" class="nav-zone zone-4" title="Contact Us"></a>
+      </div>
+
+      <!-- Search Icon -->
+      <img src="Magnifying Glass.svg" alt="Search" class="search-icon" />
+
+      <!-- Mobile Hamburger Menu -->
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="mobile-nav-panel" id="mobileNavPanel">
+        <a href="story.html">Our Story</a>
+        <a href="us-and-them.html">Us &amp; Them</a>
+        <a href="who-we-serve.html">Who We Serve</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </nav>
+
+    <script>
+      document.getElementById("hamburgerBtn").addEventListener("click", () => {
+        document.getElementById("mobileNavPanel").classList.toggle("open");
+      });
+    </script>
+
+    <!-- Mobile-only hero (hidden on desktop) -->
+    <div class="mobile-hero">
+      <img
+        src="vending-machine.png"
+        alt="Let It Rip Vending Machine"
+        class="mobile-hero-machine"
+      />
+      <p class="mobile-hero-tagline">
+        Making healthier snacking easier to find.
+      </p>
+      <div class="mobile-hero-grid">
+        <img src="Bloom Apple.png" alt="Bloom" />
+        <img src="Celcius Cherry Cola.png" alt="Celsius" />
+        <img src="Essentia Water.png" alt="Essentia" />
+        <img src="Chomps Beef Stick.png" alt="Chomps" />
+        <img src="Fitzels Pretzels.png" alt="Fitzels" />
+        <img src="David Blueberry Protien.png" alt="David" />
+        <img src="Jams PB&J.png" alt="Jams" />
+        <img src="Quest Nacho Cheese 1.png" alt="Quest Protein Chips" />
+        <img
+          src="Sweet Addisons Cookies 1.png"
+          alt="Sweet Addisons Cookies"
+        />
+      </div>
+    </div>
+
+    <img src="tiny-line-circle.svg" class="floating-shape" id="shape-1" />
+    <img src="tiny-circle.svg" class="floating-shape" id="shape-2" />
+    <img src="orange-bolt.svg" class="floating-shape" id="shape-3" />
+    <img src="Isolation_Mode (1).svg" class="floating-shape" id="shape-4" />
+    <img src="clear-circle.svg" class="floating-shape" id="shape-5" />
+    <img src="blue-triangle.svg" class="floating-shape" id="shape-6" />
+    <img src="star.svg" class="floating-shape" id="shape-7" />
+    <img src="circle-lines.svg" class="floating-shape" id="shape-8" />
+    <img src="orange-square.svg" class="floating-shape" id="shape-9" />
+    <img src="triangle.svg" class="floating-shape" id="shape-10" />
+    <img src="Isolation_Mode.svg" class="floating-shape" id="shape-11" />
+    <img src="lightning.svg" class="floating-shape" id="shape-12" />
+
+    <img src="C4 Hawaiian Punch.png" alt="C4" class="product-float" id="c4" />
+    <img src="Jams PB&J.png" alt="Jams" class="product-float" id="jams" />
+    <img
+      src="David Blueberry Protien.png"
+      alt="David Bar"
+      class="product-float"
+      id="david"
+    />
+    <img
+      src="Chomps Beef Stick.png"
+      alt="Chomps"
+      class="product-float"
+      id="chomps"
+    />
+    <img
+      src="Essentia Water.png"
+      alt="Essentia"
+      class="product-float"
+      id="essentia"
+    />
+    <img src="Bloom Apple.png" alt="Bloom" class="product-float" id="bloom" />
+    <img
+      src="Fitzels Pretzels.png"
+      alt="Fitzels"
+      class="product-float"
+      id="fitzels"
+    />
+    <img
+      src="Celcius Cherry Cola.png"
+      alt="Celsius"
+      class="product-float"
+      id="celsius"
+    />
+
+    <img
+      src="vending-machine.png"
+      alt="Let It Rip Vending Machine"
+      class="vending-machine"
+    />
+    <img src="let-it-rip-half.svg" alt="Background" id="let-it-rip-half" />
+    <img src="letitrip-bottom.svg" alt="Arrows" id="letitrip-bottom" />
+    <img src="let-it-rip.svg" alt="Let It Rip Text" id="letitrip-text" />
+  </body>
+</html>

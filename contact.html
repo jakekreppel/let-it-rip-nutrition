@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Let It Rip Nutrition</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html">
+        <img src="Layer_1.svg" alt="Let It Rip Logo" class="logo" />
+      </a>
+
+      <!-- Group 2 Asset with 4 Clickable Overlay Links -->
+      <div class="nav-group-container">
+        <img src="Group 2.svg" alt="Navigation Links" class="nav-links-img" />
+
+        <a href="story.html" class="nav-zone zone-1" title="Our Story"></a>
+        <a
+          href="us-and-them.html"
+          class="nav-zone zone-2"
+          title="Us and Them"
+        ></a>
+        <a
+          href="who-we-serve.html"
+          class="nav-zone zone-3"
+          title="Who We Serve"
+        ></a>
+        <a href="contact.html" class="nav-zone zone-4" title="Contact Us"></a>
+      </div>
+
+      <img src="Magnifying Glass.svg" alt="Search" class="search-icon" />
+
+      <!-- Mobile Hamburger Menu -->
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="mobile-nav-panel" id="mobileNavPanel">
+        <a href="story.html">Our Story</a>
+        <a href="us-and-them.html">Us &amp; Them</a>
+        <a href="who-we-serve.html">Who We Serve</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </nav>
+
+    <script>
+      document.getElementById("hamburgerBtn").addEventListener("click", () => {
+        document.getElementById("mobileNavPanel").classList.toggle("open");
+      });
+    </script>
+
+    <div class="page-title-bar">
+      <img src="Contact Us (1).svg" alt="Contact Us" />
+    </div>
+
+    <main>
+      <div class="contact-form-section">
+        <p class="contact-intro">
+          Ready to upgrade your workplace, gym, or community with healthier
+          snacks and drinks? We'd love to learn about your location and see
+          if we're a good fit.
+        </p>
+        <div class="contact-divider"></div>
+        <p class="contact-subtext">
+          Fill out the short form below and we'll reach out within 1
+          business day.
+        </p>
+        <div class="contact-divider"></div>
+
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/xeeyyaoz"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="New Let It Rip contact form submission" />
+          <input type="text" name="Name" placeholder="Name" required />
+          <input
+            type="text"
+            name="Business Name"
+            placeholder="Business Name"
+            required
+          />
+          <input type="email" name="Email" placeholder="Email" required />
+          <input type="text" name="City" placeholder="City" required />
+          <input
+            type="text"
+            name="Business Type"
+            placeholder="Business Type"
+            required
+          />
+          <textarea
+            name="Message"
+            placeholder="Tell us a little about yourself"
+            rows="4"
+          ></textarea>
+          <button type="submit" class="contact-submit">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
