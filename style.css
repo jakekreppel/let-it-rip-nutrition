@@ -661,6 +661,16 @@ body.products-page {
   gap: 45px 60px;
 }
 
+.serve-area-note {
+  grid-column: 1 / -1;
+  color: #ffffff;
+  font-family: "Karla", sans-serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 0 15px;
+}
+
 .serve-item {
   display: flex;
   align-items: center;
