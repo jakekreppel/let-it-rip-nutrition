@@ -7,7 +7,7 @@ A fully responsive marketing website for Let It Rip Nutrition, a company that pl
 ![Homepage desktop view](screenshots/homepage-desktop.png?v=2)
 
 <p align="center">
-  <img src="screenshots/homepage-mobile.png?v=2" alt="Homepage mobile view" width="260" />
+  <img src="screenshots/homepage-mobile.png?v=3" alt="Homepage mobile view" width="260" />
 </p>
 
 ## Overview
